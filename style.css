@@ -1,9 +1,7 @@
-.nm{
-    font-size: large;
-    color: white;
-    background-color:black;
-    text-align: center;
+.heading {
+  background-color: black;
+  color: aqua;
 }
-.greet{
-    font-size: medium;
+.greetings {
+  font-size: x-large;
 }
