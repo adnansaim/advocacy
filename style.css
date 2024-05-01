@@ -1,7 +1,43 @@
-.heading {
-  background-color: black;
-  color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#stylebutton {
+  border: 2px solid green;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-left: 500px;
+  margin-top: 50px;
+  transition: .1s;
+  background-color: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: Poppins;
 }
-.greetings {
-  font-size: x-large;
+.circle{
+  margin:100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: green;
+  border: 10px dashed black;
+  position: relative;
+  /* transform: rotate(0deg); */
+  transition: transform 1s linear;
+
+}.container{
+  width: 100%;
+  margin-top: 200px;
+}
+.smallcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  background-color: yellow;
+}
+
+.circle.run-wheel {
+  transform: translateX(1200px) rotate(360deg);
 }
